@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="example suite 1" verbose="1" >
+  
+  <listeners>
+		<listener class-name="com.fba.qa.extendreportlistener.ExtendReportListner" />
+	</listeners>
+  
+  <test name="Regression suite" >
+    <classes>
+      <class name="com.fba.qa.tests.ContactPageTest"/>
+      <class name="com.fba.qa.tests.DealsPageTest"/>
+      <class name="com.fba.qa.tests.HomePageTest"/>
+      <class name="com.fba.qa.tests.LoginPageTests"/>
+    </classes>
+ </test>
+</suite>

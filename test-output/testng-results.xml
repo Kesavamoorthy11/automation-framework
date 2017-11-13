@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="474192" started-at="2017-11-12T04:49:41Z" finished-at="2017-11-12T04:57:35Z">
+    <groups>
+    </groups>
+    <test name="Regression suite" duration-ms="474192" started-at="2017-11-12T04:49:41Z" finished-at="2017-11-12T04:57:35Z">
+      <class name="com.fba.qa.tests.ContactPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="31099" started-at="2017-11-12T10:19:41Z" finished-at="2017-11-12T10:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkContactsGridRow()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="checkContactsGridRow" duration-ms="3241" started-at="2017-11-12T10:20:12Z" finished-at="2017-11-12T10:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContactsGridRow -->
+        <test-method status="PASS" signature="teerDown()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="teerDown" is-config="true" duration-ms="752" started-at="2017-11-12T10:20:15Z" finished-at="2017-11-12T10:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teerDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="42624" started-at="2017-11-12T10:20:16Z" finished-at="2017-11-12T10:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="goToNewContactPage()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="goToNewContactPage" duration-ms="5653" started-at="2017-11-12T10:20:58Z" finished-at="2017-11-12T10:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToNewContactPage -->
+        <test-method status="PASS" signature="teerDown()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="teerDown" is-config="true" duration-ms="776" started-at="2017-11-12T10:21:04Z" finished-at="2017-11-12T10:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teerDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="32767" started-at="2017-11-12T10:21:06Z" finished-at="2017-11-12T10:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="validateCreateNewContact" duration-ms="14150" started-at="2017-11-12T10:21:39Z" data-provider="getTestData" finished-at="2017-11-12T10:21:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kesav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[P]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="teerDown()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="teerDown" is-config="true" duration-ms="681" started-at="2017-11-12T10:21:53Z" finished-at="2017-11-12T10:21:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teerDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="53087" started-at="2017-11-12T10:21:54Z" finished-at="2017-11-12T10:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="validateCreateNewContact" duration-ms="12838" started-at="2017-11-12T10:22:47Z" data-provider="getTestData" finished-at="2017-11-12T10:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mr.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yuvi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="teerDown()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="teerDown" is-config="true" duration-ms="729" started-at="2017-11-12T10:23:00Z" finished-at="2017-11-12T10:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teerDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="setUp" is-config="true" duration-ms="43781" started-at="2017-11-12T10:23:01Z" finished-at="2017-11-12T10:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="validateCreateNewContact" duration-ms="17809" started-at="2017-11-12T10:23:44Z" data-provider="getTestData" finished-at="2017-11-12T10:24:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miss]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raji]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pak]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Inoxx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="teerDown()[pri:0, instance:com.fba.qa.tests.ContactPageTest@42d80b78]" name="teerDown" is-config="true" duration-ms="717" started-at="2017-11-12T10:24:02Z" finished-at="2017-11-12T10:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teerDown -->
+      </class> <!-- com.fba.qa.tests.ContactPageTest -->
+      <class name="com.fba.qa.tests.DealsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fba.qa.tests.DealsPageTest@3bfdc050]" name="setUp" is-config="true" duration-ms="62822" started-at="2017-11-12T10:24:03Z" finished-at="2017-11-12T10:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchDealTest()[pri:0, instance:com.fba.qa.tests.DealsPageTest@3bfdc050]" name="searchDealTest" duration-ms="6110" started-at="2017-11-12T10:25:06Z" finished-at="2017-11-12T10:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDealTest -->
+        <test-method status="PASS" signature="teerDown()[pri:0, instance:com.fba.qa.tests.DealsPageTest@3bfdc050]" name="teerDown" is-config="true" duration-ms="776" started-at="2017-11-12T10:25:12Z" finished-at="2017-11-12T10:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teerDown -->
+      </class> <!-- com.fba.qa.tests.DealsPageTest -->
+      <class name="com.fba.qa.tests.LoginPageTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fba.qa.tests.LoginPageTests@5e3a8624]" name="setUp" is-config="true" duration-ms="40732" started-at="2017-11-12T10:26:24Z" finished-at="2017-11-12T10:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.fba.qa.tests.LoginPageTests@5e3a8624]" name="login" duration-ms="29114" started-at="2017-11-12T10:27:05Z" finished-at="2017-11-12T10:27:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.fba.qa.tests.LoginPageTests@5e3a8624]" name="tearDown" is-config="true" duration-ms="772" started-at="2017-11-12T10:27:34Z" finished-at="2017-11-12T10:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fba.qa.tests.LoginPageTests -->
+      <class name="com.fba.qa.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.fba.qa.tests.HomePageTest@1bce4f0a]" name="setUp" is-config="true" duration-ms="65170" started-at="2017-11-12T10:25:13Z" finished-at="2017-11-12T10:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:0, instance:com.fba.qa.tests.HomePageTest@1bce4f0a]" name="verifyContactsLinkTest" duration-ms="5622" started-at="2017-11-12T10:26:18Z" finished-at="2017-11-12T10:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactsLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.fba.qa.tests.HomePageTest@1bce4f0a]" name="tearDown" is-config="true" duration-ms="777" started-at="2017-11-12T10:26:23Z" finished-at="2017-11-12T10:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fba.qa.tests.HomePageTest -->
+    </test> <!-- Regression suite -->
+  </suite> <!-- example suite 1 -->
+</testng-results>
